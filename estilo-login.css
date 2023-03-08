@@ -1,0 +1,64 @@
+body ,html
+{
+	margin: 0;
+	padding: 0;
+}
+
+.container
+{
+	height: 100vh;
+	background-image: -webkit-radial-gradient(top, #ECEA4F -10%, #F1476F 20%, #2F306A 70%, #080632 95%);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+header
+{
+	grid-column: 1/4;
+	grid-row: 1/2;
+}
+
+main
+{
+	grid-column: 2/3;
+	grid-row: 2/3;
+	margin-left: 25%;
+}
+
+.ent-pd
+{
+	width: 60%;
+	background: #E6E6E6;
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	outline: none;
+
+
+}
+
+.btn-pink
+{
+	width: 65%;
+	padding: 10px;
+	background: #FF5DA2;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	color: white;
+	outline: none;
+}
+
+.btn-pink:hover
+{
+	background: #FB7DB2;
+	transition: 0.5s;
+	border: 1px solid pink;
+}
+
+footer
+{
+	grid-column: 1/4;
+	grid-row: 3/4;
+}
